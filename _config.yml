@@ -1,10 +1,11 @@
 baseurl: /TodoCSS
 pygments: true
+markdown: redcarpet
 safe: true
 
 baseurl: /TodoCSS
 
-project-url: http://operatino.github.io/TodoCSS/
+project-url: https://github.com/operatino/TodoCSS
 
 res-project-author: <a href="http://rhr.me">Robert Haritonov</a>
 res-project-author-twitter: <a href="http://twitter.com/operatino_en">@operatino</a>

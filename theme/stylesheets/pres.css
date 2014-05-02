@@ -1,0 +1,51 @@
+/* Presentation styles */
+
+.pres-section {
+	display: inline-block;
+
+	margin: 10px;
+
+	font-family: arial, helvetica, sans-serif;
+	}
+
+	.pres-section_descr {
+	    font-size: 15px;
+	    }
+
+.pres-description {
+	position: relative;
+	margin: 0 0 20px;
+	padding: 20px;
+	background-color: #d0ebf6;
+	line-height: 18px;
+
+	font-size: 14px;
+	font-family: arial, helvetica, sans-serif;
+	}
+
+	.pres-description h1 {
+		margin: 0 0 20px;
+		}
+
+		.pres-description h1 a {
+			color: inherit
+			}
+
+	.pres-description p {
+		margin: 0;
+		}
+
+	.pres-description a {
+		color: #2879d0;
+		text-decoration: none;
+		}
+
+		.pres-description a:hover {
+			color: #2879d0;
+			text-decoration: underline;
+			}
+
+.lp { /* low priority */
+    font-size: .9em;
+    color: #999;
+    }

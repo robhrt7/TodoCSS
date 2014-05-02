@@ -1,28 +1,19 @@
 <!DOCTYPE html>
 <meta charset="UTF-8">
 <title>MCSS example</title>
-<link rel="stylesheet" href="css/all.css">
+<link rel="stylesheet" href="css/mcss.css">
 
 <!--Presentational styles-->
-<style>
-    .pres-section {
-        display: inline-block;
+<link rel="stylesheet" href="../theme/stylesheets/pres.css">
 
-        margin: 10px;
-        }
+<div class="pres-description">
+    <h1><a href="http://operatino.github.io/MCSS/en/">MCSS</a> methodology usage example</h1>
 
-    .pres-section_descr {
-        font-size: 15px;
-        }
-
-    .lp { /* low priority */
-        font-size: .9em;
-        color: #999;
-        }
-</style>
+	<p>Built for <a href="http://operatino.github.io/TodoCSS/">TodoCSS</a> project, check out <a href="https://github.com/operatino/TodoCSS">source code</a>.</p>
+</div>
 
 <section class="pres-section">
-    <h2 class="pres-section_header">Base</h2>
+    <h2>Base layer</h2>
 
     <p class="pres-section_descr">.al <span class="lp">(Action Link)</span>, .link, .input, .form, .iblock, .button, .ic10</p>
 
@@ -58,8 +49,9 @@
     </form>
 </section>
 <br>
+
 <section class="pres-section">
-    <h2 class="pres-section_header">Project</h2>
+    <h2>Project layer</h2>
 
     <p class="pres-section_descr">Adding Project layer for specific Base styling.</p>
 
