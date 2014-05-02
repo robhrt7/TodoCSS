@@ -1,0 +1,19 @@
+/* Links
+---------------------------------------------------------------------------------- */
+
+.link {cursor: pointer;}
+
+
+/* Action Link */
+.al {
+    color: #eb722e;
+    cursor: pointer;
+    }
+    .al:hover {
+        color: #b84819;
+        text-decoration: underline; /* for span tag links */
+        }
+/* /Action Link */
+
+/* /Links
+---------------------------------------------------------------------------------- */

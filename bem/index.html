@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<title>BEM example</title>
+<link rel="stylesheet" href="all.css">
+
+<!--Presentational styles-->
+<style>
+    .pres-section {
+        display: inline-block;
+
+        margin: 10px;
+        }
+</style>
+
+<section class="page pres-section">
+    <h2 class="pres-section__header">Project</h2>
+
+    <form class="login form form_grid-1-2">
+        <div class="form__item login__title">
+            Login form
+        </div>
+
+        <div class="form__item iblock iblock_type_narrow iblock_login-info">
+            Information
+            <span class="iblock__close" tabindex=0></span>
+        </div>
+
+        <div class="form__item iblock iblock_type_narrow iblock_login-warning iblock_type_warning">
+            Error
+            <span class="iblock__close" tabindex=0></span>
+        </div>
+
+        <div class="form__item">
+            <div class="input">
+                <div class="input__label input__label_grid-1-2 input__label_login"><label for="login">Login</label></div>
+                <div class="input__field-wrapper input__field-wrapper_grid-1-2">
+                    <input type="text" class="input__field" id="login">
+                </div>
+            </div>
+        </div>
+
+        <div class="form__item">
+            <div class="input">
+                <div class="input__label input__label_grid-1-2 input__label_login"><label for="password">Password</label></div>
+                <div class="input__field-wrapper input__field-wrapper_grid-1-2">
+                    <input type="password" class="input__field" id="password">
+                </div>
+            </div>
+        </div>
+
+        <div class="form__item">
+            <button class="button button__login">Login</button>
+            <div class="login__additional-controls">
+                <a href="#777" class="action-link">Forgot your password?</a>
+            </div>
+        </div>
+    </form>
+</section>

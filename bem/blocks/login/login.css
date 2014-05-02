@@ -1,0 +1,19 @@
+.login {
+	padding: 10px;
+	border: solid 5px #E6E6E6;
+	border-radius: 10px;
+
+	background: url(i/ok.png) 90% 90% no-repeat;
+	}
+
+.login__title {
+    font-size: 20px;
+    }
+
+.login__submit {}
+
+.login__additional-controls {
+	margin-left: 15px;
+
+	display: inline-block;
+	}

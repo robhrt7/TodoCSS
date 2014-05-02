@@ -1,0 +1,53 @@
+.input {}
+
+.input__label {}
+
+    .input__label_grid-1-2 { /* Input label */
+        position: relative;
+        left: -115px;
+        width: 105px;
+        margin-right: -115px;
+        margin-bottom: 0;
+        margin-top: 4px; /* centering label horizontally to form field */
+        float: left;
+        text-align: right;
+        }
+    
+	.input__label_login {
+		color: #999;
+		}
+
+
+.input__field-wrapper { /* input text wrapper */
+    position: relative;
+    padding-right: 5px;
+    *zoom: 1;
+    }
+
+    .ie8 .input__field-wrapper { /* Context */
+        top: 1px;
+        }
+
+    .input__field-wrapper_grid-1-2 { /* Form input text wrapper */
+        width: 215px; /* 2 column width considering column and input paddings (5px) */
+        }
+
+
+.input__field { /* input text */
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 3px 0 4px 3px;
+    background-color: #fff;
+    border: #ccc solid 1px;
+    border-top: #999 solid 1px;
+    color: #333;
+    height: 17px; /* For win webkit */
+    line-height: 17px;
+    box-sizing: content-box;
+    font-size: 13px;
+    }
+
+    .ie8 .input__field { /* Context */
+        line-height: 16px;
+        }

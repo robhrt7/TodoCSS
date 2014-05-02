@@ -1,0 +1,14 @@
+/* Reset
+---------------------------------------------------------------------------------- */
+
+body {
+    font-family: arial, helvetica, sans-serif;
+    font-size:12px;
+    color:#333;
+    }
+
+a {color:#666;text-decoration:none}
+    a:hover {color: #333; text-decoration: underline;}
+
+/* /Reset
+---------------------------------------------------------------------------------- */

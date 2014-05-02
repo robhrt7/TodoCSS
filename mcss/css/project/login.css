@@ -1,0 +1,44 @@
+/* Login
+---------------------------------------------------------------------------------- */
+
+.login {
+	padding: 10px;
+	border: solid 5px #E6E6E6;
+	border-radius: 10px;
+
+	background: url(../../i/project/login/ok.png) 90% 90% no-repeat;
+	}
+
+	.login .iblock {
+		width: 50%;
+		box-sizing: border-box;
+		}
+
+	.login .input-label {
+		color: #999;
+		}
+
+
+.login_t {
+    font-size: 20px;
+    }
+
+.login_info {
+	margin-bottom: 1px;
+	}
+
+.login_error {
+	font-size: 15px;
+    font-weight: 700;
+	}
+
+.login_submit {}
+
+.login_additional-b {
+	margin-left: 15px;
+
+	display: inline-block;
+	}
+
+/* /Login
+---------------------------------------------------------------------------------- */

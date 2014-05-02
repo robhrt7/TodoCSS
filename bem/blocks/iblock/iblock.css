@@ -1,0 +1,39 @@
+.iblock { /* info - blue bg with info icon (i) */
+    position: relative;
+    margin: 0 0 20px;
+    padding:11px 11px 11px 48px;
+    background: #d0ebf6 url(i/info.png) 15px 12px no-repeat;
+    line-height: 18px;
+    }
+
+    .iblock_type_warning { /* warning - red bg, with warning icon (!) */
+        background-color: #ffe9ea;
+        background-image: url(i/warning.png);
+        }
+
+    .iblock_type_narrow {
+		width: 50%;
+		box-sizing: border-box;
+        }
+
+	.iblock_login-info {
+        margin-bottom: 1px;
+		}
+
+    .iblock_login-warning {
+        font-size: 15px;
+        font-weight: 700;
+        }
+
+
+.iblock__close {
+    position: absolute;
+    right: 4px;
+    top: 4px;
+
+    width: 10px;
+    height: 10px;
+
+    background-image: url(i/close.png)
+    }
+    .iblock__close:hover {background-position: 0 100%;}

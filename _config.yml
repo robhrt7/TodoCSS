@@ -1,0 +1,17 @@
+baseurl: /TodoCSS
+pygments: true
+safe: true
+
+baseurl: /TodoCSS
+
+project-url: http://operatino.github.io/TodoCSS/
+
+res-project-author: <a href="http://rhr.me">Robert Haritonov</a>
+res-project-author-twitter: <a href="http://twitter.com/operatino_en">@operatino</a>
+
+res-watch-on-github: Checkout project at
+res-download-archive: Download archive
+res-footer: This site is published through <a href="http://pages.github.com">GitHub Pages</a> based on <a href="http://jekyllrb.com">Jekyll</a>
+res-author: Project author
+
+res-navigation-suggested: Suggested projects

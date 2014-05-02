@@ -1,0 +1,9 @@
+.action-link {
+    color: #eb722e;
+    cursor: pointer;
+    text-decoration: none;
+    }
+    .action-link:hover {
+        color: #b84819;
+        text-decoration: underline; /* for span tag links */
+        }

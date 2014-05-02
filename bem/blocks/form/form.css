@@ -1,0 +1,13 @@
+.form {
+    line-height: 1.5;
+    }
+
+.form__item {
+    clear: left;
+    margin-bottom: 15px;
+    }
+
+.form_grid-1-2 .form__item {
+    width: 450px;
+    margin-left: 115px;
+    }

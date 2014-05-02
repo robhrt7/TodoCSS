@@ -1,0 +1,38 @@
+.button {
+    position: relative;
+    margin: 0;
+    padding: 4px 14px 6px;
+    border: 0;
+    overflow: visible;
+    color: #fff;
+    font: 500 14px Arial;
+    cursor: pointer;
+    white-space: nowrap; /* fixing IE9 bug with few words in button  */
+
+    text-shadow: 0 -1px 0 #458f11;
+
+    border-radius: 26px;
+
+    /* Gradient */
+    background-color: #1daa09;
+    background-repeat: repeat-x;
+    background-image: -moz-linear-gradient(top, #78d81f, #1daa09); /* FF3.6 */
+    background-image: -o-linear-gradient(top, #78d81f, #1daa09); /* Opera 11.10+ */
+    background-image: -webkit-linear-gradient(top, #78d81f, #1daa09); /* Chrome 10+, Saf5.1+ */
+    background-image: linear-gradient(to bottom, #78d81f, #1daa09);
+    }
+    .button:focus,
+    .button:hover {
+        color: #fff;
+        background-color: #70ca1b;
+        background-position: 0 100%;
+        background-image: -moz-linear-gradient(top, #70ca1b, #169305);
+        background-image: -o-linear-gradient(top, #70ca1b, #169305);
+        background-image: -webkit-linear-gradient(top, #70ca1b, #169305);
+        background-image: linear-gradient(to bottom, #70ca1b, #169305);
+        text-decoration: none;
+        }
+
+    .button:active {
+        box-shadow: inset 0 0 6px 1px #169305;
+        }

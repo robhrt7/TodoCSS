@@ -1,0 +1,76 @@
+/* Forms
+---------------------------------------------------------------------------------- */
+
+.form {
+    line-height: 1.5;
+    }
+
+.form_i { /* Form item */
+    clear: left;
+    margin-bottom: 15px;
+    }
+
+
+
+/* Input field
+-------------------------------------------------- */
+
+.input { /* input text wrapper */
+    position: relative;
+    padding-right: 5px;
+    *zoom: 1;
+    }
+
+    .ie8 .input { /* Context */
+        top: 1px;
+        }
+
+.input_cnt { /* input text */
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 3px 0 4px 3px;
+    background-color: #fff;
+    border: #ccc solid 1px;
+    border-top: #999 solid 1px;
+    color: #333;
+    height: 17px; /* For win webkit */
+    line-height: 17px;
+    box-sizing: content-box;
+    font-size: 13px;
+    }
+
+    .ie8 .input_cnt { /* Context */
+        line-height: 16px;
+        }
+
+/* /Input field */
+
+
+
+/* Forms grid 1 2 */
+
+.form.__gl-1-2 .form_i { /* Form item */
+    width: 450px;
+    margin-left: 115px;
+    }
+
+.form.__gl-1-2 .input-label { /* Input label */
+    position: relative;
+    left: -115px;
+    width: 105px;
+    margin-right: -115px;
+    margin-bottom: 0;
+    margin-top: 4px; /* centering label horizontally to form field */
+    float: left;
+    text-align: right;
+    }
+
+.form.__gl-1-2 .input { /* Form input text wrapper */
+    width: 215px; /* 2 column width considering column and input paddings (5px) */
+    }
+
+/* /Forms grid 1 2 */
+
+/* /Forms
+---------------------------------------------------------------------------------- */

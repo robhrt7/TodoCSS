@@ -1,0 +1,25 @@
+/* Tips
+---------------------------------------------------------------------------------- */
+
+.iblock { /* info - blue bg with info icon (i) */
+    position: relative;
+    margin: 0 0 20px;
+    padding:11px 11px 11px 48px;
+    background: #d0ebf6 url(../../i/ic/info.png) 15px 12px no-repeat;
+    line-height: 18px;
+    }
+
+    .iblock.__warning { /* warning - red bg, with warning icon (!) */
+        background-color: #ffe9ea;
+        background-image: url(../../i/ic/warning.png);
+        }
+
+
+.iblock_close {
+    position: absolute;
+    right: 4px;
+    top: 4px;
+    }
+
+/* /Tips
+---------------------------------------------------------------------------------- */

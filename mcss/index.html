@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<meta charset="UTF-8">
+<title>MCSS example</title>
+<link rel="stylesheet" href="css/all.css">
+
+<!--Presentational styles-->
+<style>
+    .pres-section {
+        display: inline-block;
+
+        margin: 10px;
+        }
+
+    .pres-section_descr {
+        font-size: 15px;
+        }
+
+    .lp { /* low priority */
+        font-size: .9em;
+        color: #999;
+        }
+</style>
+
+<section class="pres-section">
+    <h2 class="pres-section_header">Base</h2>
+
+    <p class="pres-section_descr">.al <span class="lp">(Action Link)</span>, .link, .input, .form, .iblock, .button, .ic10</p>
+
+    <form class="form __gl-1-2">
+        <div class="form_i iblock">
+            Information
+            <span class="iblock_close ic10 ic10_close link" tabindex=0></span>
+        </div>
+
+        <div class="form_i iblock __warning">
+            Error
+            <span class="iblock_close ic10 ic10_close link" tabindex=0></span>
+        </div>
+
+        <div class="form_i">
+            <div class="input-label"><label for="name1">Login</label></div>
+            <div class="input">
+                <input type="text" class="input_cnt" id="name1">
+            </div>
+        </div>
+
+        <div class="form_i">
+            <div class="input-label"><label for="password1">Password</label></div>
+            <div class="input">
+                <input type="password" class="input_cnt" id="password1">
+            </div>
+        </div>
+
+        <div class="form_i">
+            <button class="button">Login</button>
+            <a href="#777" class="al">Forgot your password?</a>
+        </div>
+    </form>
+</section>
+<br>
+<section class="pres-section">
+    <h2 class="pres-section_header">Project</h2>
+
+    <p class="pres-section_descr">Adding Project layer for specific Base styling.</p>
+
+    <p class="pres-section_descr">+ .login, .login_t, .login_info, .login_error, .login_submit, .login_submit, .login_additional-b</p>
+
+    <form class="login form __gl-1-2">
+        <div class="login_t form_i">
+            Login form
+        </div>
+
+        <div class="login_info form_i iblock">
+            Information
+            <span class="iblock_close ic10 ic10_close link" tabindex=0></span>
+        </div>
+
+        <div class="login_error form_i iblock __warning">
+            Error
+            <span class="iblock_close ic10 ic10_close link" tabindex=0></span>
+        </div>
+
+        <div class="form_i">
+            <div class="input-label"><label for="name3">Login</label></div>
+            <div class="input">
+                <input type="text" class="input_cnt" id="name3">
+            </div>
+        </div>
+
+        <div class="form_i">
+            <div class="input-label"><label for="password3">Password</label></div>
+            <div class="input">
+                <input type="password" class="input_cnt" id="password3">
+            </div>
+        </div>
+
+        <div class="form_i">
+            <button class="login_submit button">Login</button>
+            <div class="login_additional-b">
+                <a href="#777" class="al">Forgot your password?</a>
+            </div>
+        </div>
+    </form>
+</section>

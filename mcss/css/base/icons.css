@@ -1,0 +1,13 @@
+/* Icons
+---------------------------------------------------------------------------------- */
+
+.ic10 {
+    width: 10px;
+    height: 10px;
+    }
+
+.ic10_close {background-image: url(../../i/ic/close.png);} /* sprite with hover-state */
+    .ic10_close:hover {background-position: 0 100%;}
+
+/* /Icons
+---------------------------------------------------------------------------------- */
